@@ -1,0 +1,113 @@
+
+
+/* MY CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Julee&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Water Brush', cursive; */
+body{
+  background-color: #610a0a;
+}
+
+#main-page-card {
+  margin: 100;
+  border: 3px;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+}
+h1,h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Julee', cursive;
+  color: #ccd2cc
+  
+}
+
+#links{
+  color: rgb(135, 8, 8)
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: aqua;
+  width: 500px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+.contact-info{
+  color:#ffffff
+}
+
+.logo{
+  font-size: 45px;
+  color: #ffffff;
+  margin: 10px;
+}
+#PYB, #LOTRTT, #PREVAC {
+  width: 50%;
+  height: 100%;
+  margin: 15px;
+}
+
+.project-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.animated-text1{
+  color: #ffffff;
+  margin: 10px;
+  display: flex;
+}
+.animated-text2{
+  color: #ffffff;
+  margin: 10px;
+  display: flex;
+}
+h3,h4{
+  color:#ffffff;
+  display: flex;
+justify-content: center;
+}
+
+.skill-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.about{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 4%;
+}
+#ryan{
+  border-radius: 50%;
+  width: fit-content;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 4%;
+}
+.aboutface{
+  display: flex;
+  flex-direction: column;
+}
