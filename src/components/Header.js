@@ -1,7 +1,6 @@
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
-import { AiFillLinkedin, AiFillGithub, AiFillTwitterCircle, AiOutlineMail } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 
 const Header = () => {
     

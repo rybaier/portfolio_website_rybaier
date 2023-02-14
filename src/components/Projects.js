@@ -1,5 +1,4 @@
 import React from "react";
-import { CardImg, Card } from "reactstrap";
 import PYB from '../images/PYB.png'
 import LOTRTT from '../images/LOTRTT.png'
 import PREVAC from '../images/PrEvac.png'

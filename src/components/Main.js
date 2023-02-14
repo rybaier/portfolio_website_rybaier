@@ -2,14 +2,14 @@ import React from "react";
 import Projects from "./Projects";
 import Header from './Header';
 
-import { Wave, Random } from "react-animated-text";
+import { Wave, } from "react-animated-text";
 import About from "./About";
 import Ryan from '../images/Ryan About page photo copy Small.png'
 
 const Main = () => {
 
     const Skills1 = <Wave text="HTML, CSS, JavaScript, React, React-Native"  direction="left"/>
-    const Skillset = ["HTML", "CSS", "JavaScript", "React", "React-Native", "Python", "MongoDB", "PostgreSQL", "GO", "Rust"]
+    // const Skillset = ["HTML", "CSS", "JavaScript", "React", "React-Native", "Python", "MongoDB", "PostgreSQL", "GO", "Rust"]
     const Skills2 = <Wave text= "Python, MongoDB, MERN, Postgres, GO, Rust" direction="right"/>
 
     return (
