@@ -1,0 +1,53 @@
+
+
+/* MY CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Julee&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Water Brush', cursive; */
+body{
+  background-color: #610a0a;
+}
+
+#main-page-card {
+  margin: 100;
+  border: 3px;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+}
+h1,h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Julee', cursive;
+  color: #ccd2cc
+  
+}
+
+#links{
+  color: rgb(135, 8, 8)
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: aqua;
+  width: 500px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+.contact-info{
+  color:#ffffff
+}
+.logo{
+  font-size: 45px;
+  color: #ffffff;
+}
