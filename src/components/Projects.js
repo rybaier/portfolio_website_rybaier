@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
 
             </div>
-            <h5 className="about">Side note: this was put together to get a url. Currently building a more game oriented website to be deployed soon</h5>
+            <h5 className="about"> Another Round of Projects Coming Soon</h5>
 
         </div>
     )

@@ -1,7 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
 import Header from './Header';
-
 import { Wave, } from "react-animated-text";
 import About from "./About";
 import Ryan from '../images/Ryan About page photo copy Small.png'
