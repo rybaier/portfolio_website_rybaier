@@ -4,6 +4,7 @@ import Header from './Header';
 import { Wave, } from "react-animated-text";
 import About from "./About";
 import Ryan from '../images/Ryan About page photo copy Small.png'
+import Education from "./Education";
 
 const Main = () => {
 
@@ -35,6 +36,8 @@ const Main = () => {
                 
                 
                 <Projects />
+
+                <Education />
         </div>
         </div>
     )
