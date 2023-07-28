@@ -9,7 +9,8 @@ import RUST_2 from "../images/Ultimate Rust 2-intermediate concepts Nathan Stock
 import { Button, CardImg , Card } from "reactstrap";
 
 //go back and create one pdf document with all of the certificates this will eliminate the need for useEffect refresh
-// use page numbers instead 
+// use page numbers instead if you want to use react-pdf the other easier option is create a carousel with png screen shots 
+
 const pdfCertificates = [   
         GA_CERT, REACT_NATIVE_1, REACT_NATIVE_2,
         GO, RUST_1, RUST_2,   
@@ -34,7 +35,7 @@ const changeCert = () => {
     
     return (
         <div className="education">
-        <Button color="blue" size="lg" on onClick={changeCert} > Next Certificate</Button>   
+        <Button color="#ffffff" size="lg" on onClick={changeCert} > Next Certificate</Button>   
             <Card style={{height:300, width:500 }}>
             <Document file={pdfCertificates[certIndex]}>
                 <Page pageNumber={pageNumber}/>
